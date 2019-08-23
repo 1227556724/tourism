@@ -1,0 +1,192 @@
+.canvas {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .z-main {
+        width: 100%;
+        margin: 40px 0 100px;
+        overflow: hidden;
+
+        .z-main-left {
+            width: 113px;
+            float: left;
+
+            .z-title-content {
+                width: 100%;
+                font-size: 13px;
+                line-height: 140%;
+
+                strong {
+                    font-size: 19px;
+                    color: rgb(69, 133, 225);
+                }
+
+                p {
+                    color: rgb(186, 186, 186);
+                }
+            }
+
+            ul {
+                width: 100%;
+                height: 219px;
+                font-size: 14px;
+                color: #858585;
+                margin-top: 16px;
+
+                li {
+                    width: 100%;
+                    padding: 0 4px 0 10px;
+                    box-sizing: border-box;
+                    line-height: 54px;
+                    border-bottom: 1px solid #d0d0d0;
+                    cursor: pointer;
+
+                }
+
+                .hot {
+                    color: rgb(69, 133, 225);
+                }
+
+                li:last-child {
+                    border-bottom: 0;
+                }
+
+                li:hover {
+                    color: rgb(69, 133, 225);
+                }
+            }
+        }
+
+        .z-main-right {
+            margin-left: 146px;
+            height: 566px;
+            position: relative;
+
+            ul {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+
+                li {
+                    position: relative;
+                    float: left;
+                    width: 262px;
+                    margin: 0 14px 20px 0;
+
+                    .z-img {
+                        width: 100%;
+                        height: 201px;
+                        text-align: center;
+                        vertical-align: middle;
+                        display: table-cell;
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                        }
+
+                        .z-desk {
+                            width: 100%;
+                            height: 201px;
+                            line-height: 201px;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            background: rgba(69, 133, 255, 0.77);
+                            text-align: center;
+                            opacity: 0;
+                            transition: all .2s linear;
+
+                            i {
+                                font-size: 32px;
+                                color: #fff;
+                            }
+                        }
+
+                        .z-desk:hover {
+                            opacity: 1;
+                        }
+                    }
+
+                    .z-article {
+                        padding-left: 6px;
+
+                        .z-title {
+                            margin-top: 4px;
+
+                            a {
+                                font-size: 14px;
+                                color: #5A5A5A;
+                                display: block;
+                            }
+
+                            .z-price {
+                                line-height: 140%;
+                                font-size: 15px;
+
+                                .z-price-title {
+                                    font-size: 12px;
+                                    color: #ACACAC;
+                                }
+
+                                .z-price-m {
+                                    color: #ff7d17;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                li:nth-child(3n) {
+                    margin-right: 0;
+                }
+            }
+
+            .active {
+                display: block;
+            }
+
+            .z-page {
+                width: 100%;
+                height: 25px;
+                text-align: center;
+                line-height: 25px;
+                font-size: 12px;
+
+                .ltarea,
+                .gtarea {
+                    display: inline-block;
+                    height: 25px;
+
+                    .z-cpb {
+                        color: #000;
+                        font-weight: bold;
+
+                    }
+                }
+
+                .gtarea {
+                    margin-left: 5px;
+
+                    .z-one {
+                        width: 25px;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

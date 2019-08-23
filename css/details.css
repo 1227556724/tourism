@@ -1,0 +1,178 @@
+.canvas {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.canvas .z-main {
+  width: 100%;
+  margin: 40px 0 100px;
+  overflow: hidden;
+}
+
+.canvas .z-main .z-main-left {
+  width: 113px;
+  float: left;
+}
+
+.canvas .z-main .z-main-left .z-title-content {
+  width: 100%;
+  font-size: 13px;
+  line-height: 140%;
+}
+
+.canvas .z-main .z-main-left .z-title-content strong {
+  font-size: 19px;
+  color: #4585e1;
+}
+
+.canvas .z-main .z-main-left .z-title-content p {
+  color: #bababa;
+}
+
+.canvas .z-main .z-main-left ul {
+  width: 100%;
+  height: 219px;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.canvas .z-main .z-main-left ul li {
+  width: 100%;
+  padding: 0 4px 0 10px;
+  box-sizing: border-box;
+  line-height: 54px;
+  border-bottom: 1px solid #d0d0d0;
+  cursor: pointer;
+}
+
+.canvas .z-main .z-main-left ul li a {
+  display: block;
+  color: #858585;
+}
+
+.canvas .z-main .z-main-left ul li a:hover {
+  color: #4585e1;
+}
+
+.canvas .z-main .z-main-left ul .hot {
+  color: #4585e1;
+}
+
+.canvas .z-main .z-main-left ul li:last-child {
+  border-bottom: 0;
+}
+
+.canvas .z-main .z-main-right {
+  height: 672px;
+  width: 807px;
+  float: right;
+  margin-left: 39px;
+}
+
+.canvas .z-main .z-main-right .z-title {
+  width: 100%;
+  text-align: center;
+  background: azure;
+  line-height: 3;
+  font-size: 20px;
+  color: #4e5d78;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.canvas .z-main .z-main-right .z-details-cn {
+  width: 100%;
+  height: auto;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-lf-img {
+  float: left;
+  width: 415px;
+  height: 318px;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-lf-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-tl-pr {
+  float: right;
+  width: 359px;
+  padding-left: 14px;
+  box-sizing: border-box;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-tl-pr h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  border-bottom: 1px solid #d9d9d9;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-tl-pr .z-market-price,
+.canvas .z-main .z-main-right .z-details-cn .z-tl-pr .z-price {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-tl-pr .z-market-price del,
+.canvas .z-main .z-main-right .z-details-cn .z-tl-pr .z-price del {
+  color: #898989;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-tl-pr .z-market-price span,
+.canvas .z-main .z-main-right .z-details-cn .z-tl-pr .z-price span {
+  font-size: 24px;
+  color: #f1c232;
+  font-weight: bold;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-content {
+  float: left;
+  margin: 40px 0 10px;
+  padding: 5px;
+  text-align: center;
+  background-color: #F5F5F5;
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+  width: 100%;
+  color: #666666;
+  box-sizing: border-box;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-content p {
+  line-height: 2;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-next {
+  margin-top: 20px;
+  width: 100%;
+  float: left;
+  color: #595959;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-next .z-next-to {
+  font-size: 12px;
+  line-height: 2;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-next .z-next-to a {
+  color: #595959;
+}
+
+.canvas .z-main .z-main-right .z-details-cn .z-next .z-next-to a:hover {
+  text-decoration: underline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

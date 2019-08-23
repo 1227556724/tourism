@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+}
+
+.canvas {
+    width: 960px;
+    margin: 40px auto 80px;
+    overflow: hidden;
+
+    .z-content-box {
+        width: 956px;
+        height: 171px;
+        padding: 40px 185px;
+        box-sizing: border-box;
+        border: 2px solid rgb(240, 240, 240);
+        background: transparent;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+
+        .z-cstlayer-lf {
+            position: absolute;
+            left: 92px;
+            top: -20px;
+            font-size: 106px;
+            font-family: 'Arial Black';
+            color: rgb(238, 238, 238);
+        }
+
+        .z-cstlayer-rg {
+            position: absolute;
+            right: 92px;
+            bottom: -34px;
+            font-size: 106px;
+            font-family: 'Arial Black';
+            color: rgb(238, 238, 238);
+        }
+
+        .z-cn-text {
+            height: 46px;
+            color: rgb(161, 161, 161);
+            line-height: 25px;
+        }
+
+        .z-cn-title {
+
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(69, 133, 255);
+            line-height: 30px;
+        }
+    }
+
+    .z-mp-content {
+        width: 100%;
+        height: 410px;
+        margin-top: 50px;
+
+        .z-map {
+            width: 600px;
+            height: 100%;
+            background: #000000;
+            float: left;
+        }
+
+        .z-contact {
+            float: right;
+            width: 336px;
+
+            .z-title {
+                line-height: 45px;
+                font-size: 12px;
+
+                strong {
+                    font-size: 22px;
+                    color: rgb(67, 67, 67);
+                }
+
+                .z-el-tit {
+                    color: rgb(204, 204, 204);
+                }
+            }
+
+            .z-card {
+                margin-top: 14px;
+                width: 100%;
+                height: 106px;
+                background: rgb(69, 133, 255);
+                text-align: center;
+                color: #fff;
+
+                span {
+                    line-height: 106px;
+                    font-size: 16px;
+                }
+
+                strong {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.iw_poi_title {
+    color: #CC5522;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 13px;
+    white-space: nowrap
+}
+
+.iw_poi_content {
+    font: 12px arial, sans-serif;
+    overflow: visible;
+    padding-top: 4px;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word
+}

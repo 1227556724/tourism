@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+}
+
+.canvas {
+    width: 960px;
+    margin: 40px auto 80px;
+    overflow: hidden;
+
+    .z-content-box {
+        width: 956px;
+        height: 171px;
+        padding: 40px 185px;
+        box-sizing: border-box;
+        border: 2px solid rgb(240, 240, 240);
+        background: transparent;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+
+        .z-cstlayer-lf {
+            position: absolute;
+            left: 92px;
+            top: -20px;
+            font-size: 106px;
+            font-family: 'Arial Black';
+            color: rgb(238, 238, 238);
+        }
+
+        .z-cstlayer-rg {
+            position: absolute;
+            right: 92px;
+            bottom: -34px;
+            font-size: 106px;
+            font-family: 'Arial Black';
+            color: rgb(238, 238, 238);
+        }
+
+        .z-cn-text {
+            height: 46px;
+            color: rgb(161, 161, 161);
+            line-height: 25px;
+        }
+
+        .z-cn-title {
+
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(69, 133, 255);
+            line-height: 30px;
+        }
+    }
+
+    .z-order-bx {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        overflow: hidden;
+
+        .z-lf-od {
+            float: left;
+            width: 276px;
+
+            .z-tx-cn {
+                width: 100%;
+                height: 63px;
+                margin-top: 44px;
+
+                .z-tx-round {
+                    float: left;
+                    border-radius: 50%;
+                    background: rgb(69, 133, 255);
+                    width: 44px;
+                    height: 44px;
+                    font-size: 18px;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 44px;
+                    margin-top: 4px;
+                }
+
+                .z-tx-ft {
+                    float: right;
+                    text-align: left;
+                    font-size: 20px;
+                    color: #5a5a5a;
+                    width: 210px;
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .z-tx-cn:first-child {
+                margin-top: 0;
+            }
+        }
+
+        .z-rg-od {
+            float: right;
+            width: 577px;
+
+            .z-form {
+
+                .z-inp {
+                    width: 577px;
+                    margin-top: 16px;
+
+
+                    input,
+                    textarea,
+                    button {
+                        width: 100%;
+                        height: 43px;
+                        outline: none;
+                        border: none;
+                        color: #9f9f9f;
+                        font-size: 12px;
+                        background: #f4f4f4;
+                        text-indent: 15px;
+                    }
+
+                    textarea {
+                        height: 60px;
+                        padding: 6px 0;
+                        resize: none;
+                    }
+
+                    button {
+                        background: rgb(69, 133, 255);
+                        line-height: 43px;
+                        text-align: center;
+                        color: #fff;
+                        font-size: 18px;
+                    }
+                }
+
+                .z-inp:first-child {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

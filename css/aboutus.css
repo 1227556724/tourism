@@ -1,0 +1,56 @@
+.module-1 {
+  margin-top: 40px;
+  position: relative;
+}
+
+.module-1 .content {
+  width: 870px;
+  height: 330px;
+  float: right;
+  box-sizing: border-box;
+  border: 1px solid #888888;
+  padding: 30px 30px 30px 174px;
+  overflow: hidden;
+}
+
+.module-1 .content h3 {
+  font-size: 23px;
+  line-height: 2;
+  color: #5a5a5a;
+  font-weight: 700;
+}
+
+.module-1 .content .cont {
+  font-size: 14px;
+  color: #808080;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+.module-1 .flo {
+  width: 230px;
+  height: 275px;
+  background-color: #4585ff;
+  position: absolute;
+  left: 0;
+  top: 27px;
+}
+
+.module-1 .flo .block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 2;
+  color: #fff;
+}
+
+.module-1 .flo .block .tit {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.module-1 .flo .block .ename {
+  font-size: 17px;
+}
